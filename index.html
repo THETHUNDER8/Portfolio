@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  
+</head>
+<body>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>About</span></li>
+            <li><span>Works</span></li>
+            <li><span>Experience</span></li>
+            <li><span>Education</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Hugo<br>Gonçalves</h1>
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <h3>About me</h3>
+                <p><i class="fas fa-map-pin"></i> Portugal, Figueira da Foz.</p>
+                <p>Most used technologies:</p>
+                <div class="language-badges">
+                    <span class="badge">PHP</span>
+                    <span class="badge">Yii2</span>
+                    <span class="badge">Python</span>
+                </div>
+                <br>
+                <div class="social-links">
+                  <a href="https://github.com/THETHUNDER8"><i class="fab fa-github"></i>GitHub</a>
+                  <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
+                  <a href="assets/img/CV.pdf"  target="_blank"><i class="fas fa-file"></i>View CV</a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Selected work</h2>
+                <div class="slideshow-container">
+                  <!-- Full-width images with number and caption text -->
+                  <div class="mySlides fade">
+                    <img src="assets/img/img1.jpg" style="width:100%">
+                    <a href = "https://github.com/WineSteward/Palheiro_Web">Palheiro</a>
+                    <div>Texto sobre o palheiro e tecnologias utilizadas</div>
+                    <span class="badge">PHP</span><span class="badge">Yii2</span><span class="badge">MySQL</span>
+                  </div>
+                
+                  <div class="mySlides fade">
+                    <img src="assets/img/img2.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                  </div>
+                
+                  <div class="mySlides fade">
+                    <img src="assets/img/img3.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                  </div>
+                
+                  <!-- Next and previous buttons -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="experience">
+              <h2>Professional Experience</h2>
+              <div class="experience-item">
+                  <h3>SIS - Streak Industrial Services</h3>
+                  <p><strong>Intern</strong> (2018, Internship - 700h)</p>
+                  <ul>
+                      <li>Assisted with electrical work on electrical boards and machinery.</li>
+                      <li>Contributed to the creation and maintenance of an internal cataloging system for stock management using C#.</li>
+                  </ul>
+              </div>
+              <div class="experience-item">
+                  <h3>Ideaflow LDA</h3>
+                  <p><strong>Intern</strong> (2024, Internship - 640h)</p>
+                  <ul>
+                      <li>Contributed to the development of a mobile app designed to find the best market deals.</li>
+                      <li>Researched and implemented the best methods for extracting information from images using Python and OCR technology.</li>
+                      <li>Worked on the project from the ground up, exploring various approaches to optimize accuracy and performance.</li>
+                  </ul>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="education">
+              <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Técnico de Gestão de Equipamentos Informáticos</h3>
+                    <p><strong>2018</strong> – Escola Secundária Dr. Joaquim de Carvalho, Figueira da Foz</p>
+                    <ul>
+                        <li>Electrónica Fundamental</li>
+                        <li>Instalação e manutenção de Equipamentos Informáticos</li>
+                        <li>Sistemas Digitais e Arquitetura de Computadores</li>
+                        <li>Comunicação de Dados</li>
+                    </ul>
+                </div>
+                <div class="education-item">
+                    <h3>Curso Técnico Superior Profissional de Programação de Sistemas de Informação (por concluir)</h3>
+                    <p><strong>2021</strong> – Politécnico de Leiria</p>
+                </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script src="assets/js/functions.js"></script>
+</body>
+</html>
