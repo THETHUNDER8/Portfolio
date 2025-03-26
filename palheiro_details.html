@@ -7,34 +7,89 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
-  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0c0c0c; /* Base color for dark theme */
+      color: #fff; /* Text color for dark theme */
+      text-align: center;
+    }
+
+    header {
+    display: flex;
+    justify-content: space-between; /* Distribute space between title and social link */
+    align-items: center; /* Vertically align items in the center */
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: white;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+
+    .container {
+      margin: 20px;
+    }
+
+    .project-intro {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #333; /* Dark background for the content section */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    img {
+      width: 80%;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #ddd; /* Lighter text color for paragraphs */
+    }
+
+    h2 {
+      color: #fff; /* White color for subheading */
+    }
+  </style>
 </head>
 <body>
     <header>
-        <h1>Detalhes do Projeto</h1>
+        <h1>Palheiro</h1>
+        <div class="social-links">
+            <a href="https://github.com/WineSteward/Palheiro_Web"><i class="fab fa-github"></i>GitHub</a>
+        </div>
     </header>
     
     <main class="container">
         <section class="project-intro">
-            <a href = "https://github.com/WineSteward/Palheiro_Web"><i class="fab fa-github"></i>GitHub</a>
-            <h2>Introdução</h2>
+            <img src="assets/img/Capture.PNG" alt="Capture 1">
+            <h2>Sobre o "Paheiro"</h2>
             <p>O presente trabalho foi desenvolvido no âmbito das unidades curriculares de Plataformas de Sistemas de Informação, Acesso Móvel a Sistemas de Informação e Serviços,
-                 e Interoperabilidade de Sistemas, com o objetivo principal de conceber e implementar uma solução tecnológica composta por uma aplicação web e uma aplicação móvel.
-                  Estas aplicações foram integradas com uma API, tendo como finalidade suportar a operação de uma mercearia hipotética, denominada "O Palheiro".  
+                e Interoperabilidade de Sistemas, com o objetivo principal de conceber e implementar uma solução tecnológica composta por uma aplicação web e uma aplicação móvel.
+                Estas aplicações foram integradas com uma API, tendo como finalidade suportar a operação de uma mercearia hipotética, denominada "O Palheiro".  
 
                 A evolução do mundo para uma era digital, exigiu que a área do retalho também acompanhasse essa transformação, o que levou naturalmente à criação de websites de comércio 
                 eletrónico, de fácil utilização para satisfazer as necessidades em constante mudança dos clientes. O projeto visa desenvolver e implementar um sistema 
                 de uma mercearia online com uma aplicação web de front office, um portal administrativo de back office, uma aplicação móvel e uma API RESTful para fornecer 
                 uma interoperabilidade ideal entre os vários componentes. A plataforma tem como objetivo agilizar o processo de compras e oferecer aos interessados um conjunto 
-                sólido de ferramentas para gestão da mercearia, interação com o utilizador e monitorização de desempenho. </p>
+                sólido de ferramentas para gestão da mercearia, interação com o utilizador e monitorização de desempenho.</p>
+                <img src="assets/img/Capture2.PNG" alt="Capture 2">
+                <img src="assets/img/Capture3.PNG" alt="Capture 3">
+                <img src="assets/img/Capture4.PNG" alt="Capture 4">
         </section>
     </main>
-    <img src="assets/img/Capture.PNG" alt="">
-    <img src="assets/img/Capture2.PNG" alt="">
-    <img src="assets/img/Capture3.PNG" alt="">
-    <img src="assets/img/Capture4.PNG" alt="">
-        
-
-  
+    
 </body>
 </html>
