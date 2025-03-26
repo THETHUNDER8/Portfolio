@@ -37,6 +37,14 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+.rounded-image {
+    width: 400px; /* Adjust as needed */
+    height: 400px; /* Make sure width and height are equal for a perfect circle */
+    border-radius: 50%; /* Fully rounded */
+    object-fit: cover; /* Ensures image fills the space without distortion */
+    border: 2px solid #333; /* Optional: Add a border */
+}
+
 body {
     margin: 0
 }
@@ -686,12 +694,6 @@ body {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Different Colors for Variety */
-.badge:nth-child(2) { background: linear-gradient(135deg, #f7df1e, #c9b400); color: #333; } 
-.badge:nth-child(3) { background: linear-gradient(135deg, #3776AB, #25527b); } 
-.badge:nth-child(4) { background: linear-gradient(135deg, #00599C, #003b66); } 
-
-
 @media (max-width: 900px) {
     .intro--banner {
         height: 380px
@@ -813,7 +815,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 600px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
